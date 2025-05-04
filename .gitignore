@@ -1,0 +1,39 @@
+# Ignore build output files
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.out
+*.a
+*.lib
+
+# Ignore dependency files
+*.d
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Windows thumbnail/cache files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Ignore generated logs and temporary files
+*.log
+*.tmp
+
+# Ignore backup files created by editors
+*~
+*.swp
+*.swo
+
+# Ignore CMake build directories (if you're using CMake)
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
